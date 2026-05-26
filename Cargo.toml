@@ -1,6 +1,6 @@
 [package]
 name = "salesforce-exporter"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bulk export of Salesforce data to Parquet"
 repository = "https://github.com/openjusticeok/salesforce-exporter"
 keyword = ["salesforce", "parquet"]
@@ -8,7 +8,7 @@ categories = ["command-line-utilities"]
 readme = "README.md"
 license-file = "LICENSE"
 edition = "2024"
-exclude = ["./*", "flake.*"]
+exclude = [".*", "flake.*"]
 
 [dependencies]
 anyhow = "1.0.102"
